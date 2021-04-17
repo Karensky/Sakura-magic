@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "zhanku";
+    src: url("https://cdn.jsdelivr.net/gh/fz6m/Private-web@1.0/font/zhanku/zhanku.eot"); /* IE9 */
+    src: url("https://cdn.jsdelivr.net/gh/fz6m/Private-web@1.0/font/zhanku/zhanku.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */  
+    url("https://cdn.jsdelivr.net/gh/fz6m/Private-web@1.0/font/zhanku/zhanku.woff") format("woff"), /* chrome、firefox */
+    url("https://cdn.jsdelivr.net/gh/fz6m/Private-web@1.0/font/zhanku/zhanku.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://cdn.jsdelivr.net/gh/fz6m/Private-web@1.0/font/zhanku/zhanku.svg#zhanku") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}

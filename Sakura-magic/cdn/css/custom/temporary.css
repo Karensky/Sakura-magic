@@ -1,0 +1,135 @@
+.header-tou{
+    opacity: 0;
+    animation: bounceInDown 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    60% {
+        opacity: 0.7;
+        transform: translateY(30px);
+    }
+    80% {
+        opacity: 0.8;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.header-info{ 
+	animation: bounceInLeft 2s;
+	animation-fill-mode: both;
+}
+@media(max-width: 860px) {
+	div#output-wrap {
+    	margin-top: 1em;
+	}
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*typing.js*/
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.typing-cursor, .typing-cursor-black, .typing-cursor-white {
+  opacity: 1;
+  font-weight: bold;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+.typing-cursor, .typing-cursor-black {
+  color: #000;
+}
+
+.typing-cursor-white {
+  color: #fff;
+}
+
+.output-imgbox {
+	margin-top: -10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+/*h3标题优化*/
+.entry-content h3 {
+	color: #404040 !important;
+}
+
+.entry-content h3:after {
+    content: "\00a0" !important;
+    transition: all .35s;
+    content: ""!important;
+    position: absolute;
+    left: -1px;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgb(255,109,109,.8);
+    background: rgb(255,109,109,.8);
+    height: 5px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    width: 1em;
+}
+.entry-content h3:hover:after {
+    width: 2em;
+}
+
+/*h1标题优化*/
+h1.entry-title {
+    font-family: 'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
+    font-size: 40px !important;
+}
+
+p.entry-census {
+    font-family: 'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
+    font-size: 15px !important;
+    margin-bottom: 20px;
+}
+@media (max-width: 860px) {
+	h1.entry-title {
+		font-size: 30px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
